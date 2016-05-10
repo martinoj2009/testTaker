@@ -1,0 +1,22 @@
+﻿<Window x:Class="cityCodeTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cityCodeTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="377.841" Width="456.392" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="label_city" Content="City" HorizontalAlignment="Left" Margin="89,56,0,0" VerticalAlignment="Top" Width="233"/>
+        <RadioButton x:Name="Answer1" Content="Answer1" HorizontalAlignment="Left" Margin="146,109,0,0" VerticalAlignment="Top" GroupName="an"/>
+        <Button x:Name="button_Next" Content="Skip" HorizontalAlignment="Left" Margin="10,279,0,10" Width="112" Click="button_Next_Click"/>
+        <RadioButton x:Name="Answer2" Content="Answer2" HorizontalAlignment="Left" Margin="146,129,0,0" VerticalAlignment="Top" GroupName="an"/>
+        <RadioButton x:Name="Answer3" Content="Answer3" HorizontalAlignment="Left" Margin="146,149,0,0" VerticalAlignment="Top" GroupName="an"/>
+        <RadioButton x:Name="Answer4" Content="Answer4" HorizontalAlignment="Left" Margin="146,164,0,0" VerticalAlignment="Top" GroupName="an"/>
+        <Button x:Name="button_CheckAnswer" Content="Check" Margin="326,279,10,10" IsDefault="True" Click="button_CheckAnswer_Click"/>
+        <Label x:Name="label_Total" Content="Total: " Margin="356,10,10,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_QuestionNumber" Content="Question Number: " HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="label_Correct" HorizontalAlignment="Left" Margin="184,15,0,0" TextWrapping="Wrap" Text="Correct: " VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
