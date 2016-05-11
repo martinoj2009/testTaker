@@ -28,6 +28,7 @@ namespace cityCodeTest
         private List<string> possibleAnswers = new List<string>();
         private RadioButton[] buttons = new RadioButton[4];
         private int correctAnswers = 0;
+        private string currentDir = AppDomain.CurrentDomain.BaseDirectory;
 
 
 
@@ -49,16 +50,18 @@ namespace cityCodeTest
         {
             OpenFileDialog openFile = new OpenFileDialog();
             openFile.Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*";
+            openFile.InitialDirectory = currentDir;
 
-            while(openFile.ShowDialog().Value == false)
+            if(openFile.ShowDialog().Value == false)
             {
-                openFile.ShowDialog();
+                MessageBox.Show("You need to select a file to open!");
+                Application.Current.Shutdown();
             }
 
             if (File.Exists(openFile.FileName) == false)
             {
                 MessageBox.Show("Missing the cc text file that contains all the letter codes and cities. Please put the file in the same folder as this application.");
-                Application.Current.Shutdown();
+                Environment.Exit(-1);
             }
 
             System.IO.StreamReader file = new System.IO.StreamReader(openFile.FileName);
@@ -181,5 +184,17 @@ namespace cityCodeTest
             return randomList; //return the new random list
         }
 
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/martinoj2009/testTaker/blob/master/cityCodeTest/MainWindow.xaml.cs");
+        }
+
+        private void MenuItem_Click_1(object sender, RoutedEventArgs e)
+        {
+            aboutBox about = new aboutBox();
+            about.ShowDialog();
+            about.Dispose();
+        }
     }
 }

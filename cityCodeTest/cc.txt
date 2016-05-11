@@ -1,0 +1,195 @@
+﻿ACC, Accra, Ghana
+ANU, St. John's, Antigua and Barbuda
+AUA, Oranjestad, Aruba
+BDA, Hamilton, Bermuda
+BOG, Bogotá, Colombia
+BON, Kralendijk, Bonaire
+BSB, Brasília, Brazil
+BZE, Belize City, Belize
+CCS, Caracas, Venezuela
+DKR, Dakar, Senegal
+DXB, Dubai, United Arab Emirates
+EZE, Buenos Aires, Argentina
+FPO, Freeport, Bahamas
+GCM, Georgetown, Cayman Islands
+GEO, Georgetown, Guyana
+GIG, Rio de Janeiro, Brazil
+GND, Grenada, Grenada
+GRU, São Paulo, Brazil
+GUA, Guatemala City, Guatemala
+JNB, Johannesburg, South Africa
+KIN, Kingston, Jamaica
+LIM, Lima, Peru
+LIR, Liberia, Costa Rica
+LOS, Lagos, Nigeria
+MBJ, Montego Bay, Jamaica
+MGA, Managua, Nicaragua
+NAS, Nassau, Bahamas
+PAP, Port-au-Prince, Haiti
+PLS, Providenciales, Turks & Caicos Islands
+PTY, Panama City, Panama
+PUJ, Punta Cana, Dominican Republic
+ROB, Monrovia, Liberia
+RTB, Roatán, Honduras
+SAL, San Salvador, El Salvador
+SAP, San Pedro Sula, Honduras
+SCL, Santiago, Chile
+SDQ, Santo Domingo, Dominican Republic
+SJO, San José, Costa Rica
+SJU, San Juan, Puerto Rico
+SKB, Bassetere, Saint Kitts & Nevis
+STI, Santiago, Dominican Republic
+STT, Saint Thomas, Virgin Islands
+SXM, Philipsburg, St. Maarten
+TGU, Tegucigalpa, Honduras
+TLV, Tel Aviv, Israel
+UIO, Quito, Ecuador
+UVF, Vieux-Fort, Saint Lucia
+ALB, Albany, New York 
+BDL, Hartford, Connecticut 
+BOS, Boston, Massachusetts 
+BUF, Buffalo, New York 
+BWI, Baltimore, Maryland 
+DCA, Washington (Reagan), DC 
+EWR, Newark, New Jersey 
+IAD, Washington (Dulles), DC 
+JFK, John F Kennedy, New York 
+LGA, La Guardia, New York 
+MDT, Harrisburg, Pennsylvania 
+MHT, Manchester, New Hampshire 
+ORF, Norfolk, Virginia 
+PHF, Newport News, Virginia 
+PHL, Philadelphia, Pennsylvania 
+PIT, Pittsburgh, Pennsylvania 
+PVD, Providence, Rhode Island 
+PWM, Portland, Maine 
+ROC, Rochester, New York 
+SYR, Syracuse, New York 
+AGS, Augusta, Georgia 
+ATL, Atlanta, Georgia 
+AVL, Ashville, North Carolina 
+BHM, Birmingham, Alabama 
+BNA, Nashville, Tennessee 
+BTR, Baton Rouge, Louisiana 
+CAE, Columbia, South Carolina 
+CHA, Chattanooga, Tennessee 
+CHS, Charleston, South Carolina 
+CLT, Charlotte, North Carolina 
+CRW, Charleston, West Virginia 
+DAB, Daytona Beach, Florida 
+ECP, Panama City, Florida 
+EYW, Key West, Florida 
+FAY, Fayetteville, North Carolina 
+FLL, Fort Lauderdale, Florida 
+GPT, Gulfport, Mississippi 
+GSO, Greensboro, North Carolina 
+GSP, Greenville/Spartanburg, South Carolina 
+HSV, Huntsville, Alabama 
+ILM, Wilmington, North Carolina 
+JAN, Jackson, Mississippi 
+JAX, Jacksonville, Florida 
+LEX, Lexington, Kentucky 
+LIT, Little Rock, Arkansas 
+MCO, Orlando, Florida 
+MEM, Memphis, Tennessee 
+MIA, Miami, Florida 
+MLB, Melbourne, Florida 
+MOB, Mobile, Alabama 
+MSY, New Orleans, Louisiana 
+MYR, Myrtle Beach, South Carolina 
+PBI, West Palm Beach, Florida 
+PNS, Pensacola, Florida 
+RDU, Raleigh/Durham, North Carolina 
+ROA, Roanoke, Virginia 
+RIC, Richmond, Virginia 
+RSW, Fort Meyers, Florida 
+SAV, Savannah, Georgia 
+SDF, Louisville, Kentucky 
+SRQ, Sarasota, Florida 
+TLH, Tallahassee, Florida 
+TPA, Tampa, Florida 
+TRI, Johnson City (Tri Cities), Tennessee 
+TYS, Knoxville, Tennessee 
+VPS, Fort Walton Beach, Florida 
+ZIH, Ixtapa, Mexico 
+SJD, Los Cabos, Mexico 
+PVR, Puerto Vallarta, Mexico 
+MZT, Mazatlan, Mexico 
+MEX, Mexico City, Mexico 
+GDL, Guadalajara, Mexico 
+CZM, Cozumel, Mexico 
+CUN, Cancun, Mexico
+ABQ, Albuquerque, New Mexico 
+AUS, Austin, Texas 
+DFW, Dallas-Fort Worth, Texas 
+ELP, El Paso, Texas 
+HOU, Houston Hobby, Texas 
+IAH, Houston Intercontinetal, Texas 
+OKC, Oklahoma City, Oklahoma 
+PHX, Phoenix, Arizona 
+TUL, Tulsa, Oklahoma 
+TUS, Tucson, Arizona 
+BIS, Bismarck, North Dakota 
+BMI, Bloomington, Illinois 
+CAK, Akron (Canton), Ohio 
+CLE, Cleveland, Ohio 
+CMH, Columbus, Ohio 
+CVG, Cincinnati, Ohio 
+DAY, Dayton, Ohio 
+DSM, Des Moines, Iowa 
+DTW, Detroit, Michigan 
+FAR, Fargo, North Dakota 
+FNT, Flint, Michigan 
+FSD, Sioux Falls, South Dakota 
+GRB, Green Bay, Wisconson 
+GRR, Grand Rapids, Michigan 
+IND, Indianapolis, Indiana 
+MCI, Kansas CIty, Missouri 
+MDW, Chicago Midway, Illinois 
+MKE, Milwaukee, Wisconson 
+MOT, Minot, North Dakota 
+MSN, Madison, Wisconsin 
+MSP, Minneapolis/Saint Paul, Minnesota 
+OMA, Omaha, Nebraska 
+ORD, Chicago O'Hare, Illinois 
+RAP, Rapid City, South Dakota 
+ANC, Anchorage, Alaska 
+BIL, Billings, Montana 
+BOI, Boise, Idaho 
+BZN, Bozeman, Montana 
+COS, Colorado Springs, Colorado 
+DEN, Denver, Colorado 
+EGE, Vail, Colorado 
+FAI, Fairbanks, Alaska 
+FCA, Kalispell, Montana 
+GEG, Spokane, Washington 
+HDN, Hayden, Colorado 
+HNL, Honolulu, Hawaii 
+JAC, Jackson, Wyoming 
+KOA, Kailua/Kona, Hawaii 
+LAS, Las Vegas, Nevada 
+LAX, Las Angeles, California 
+LGB, Long Beach, California 
+LIH, Lihue, Hawaii 
+MSO, Missoula, Montana 
+MTJ, Montrose, Colorado 
+OAK, Oakland, California 
+OGG, Kahului, Hawaii 
+ONT, Ontario, California 
+PDX, Portland, Oregon 
+PSP, Palm Springs, California 
+RNO, Reno, Nevada 
+SAN, San Diego, California 
+SEA, Seattle, Washington 
+SFO, San Francisco, California 
+SJC, San Jose, California 
+SLC, Salt Lake City, Utah 
+SMF, Sacramento, California 
+SNA, Santa Ana, California 
+STL, St. Louis, Missouri 
+TVC, Traverse City, Michigan 
+YUL, Montreal, Quebec 
+YVR, Vancouver, British Columbia 
+YYC, Calgary, Alberta 
+YYZ, Toronto, Ontario 
+SAT, San Antonio, Texas

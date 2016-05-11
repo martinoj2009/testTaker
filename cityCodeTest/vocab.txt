@@ -1,0 +1,155 @@
+﻿Aircraft Length, Determined by the distance from the nose of the fuselage to the tail.
+Aircraft Logbook (ACL), A flight deck logbook where missing, inoperative or broken “safety-related” items are recorded to advise the Maintenance department to correct or repair the items.
+Abort, To terminate or discontinue an operation or procedure before its completion, such as takeoff or landing.
+Aircraft Right, The point of reference for determining the right side of the aircraft from inside the aircraft facing forward.
+Aircraft Communication and Reporting System (ACARS), An automated onboard system that sends and receives relevant aircraft information.
+Airport Codes, Three-letter codes which designate specific airports.
+Access Days (A-Day), A block of days on your schedule for the purpose of covering operational needs.
+Airport Customer Service (ACS), Department which includes gate agents, ticket agents and ramp personnel.
+Aft, The rear portion of the airplane or in the direction of the back of the airplane.
+Airport Release, Before leaving the airport, an A-Day holder must obtain a release through the Automated Crew Scheduling telephone system within one hour of block-in time or the end of a non-fly duty period.
+Air Notes, Used to obtain statements from flight attendants and passengers witnessing incidents in the cabin. This form is found in the Flight Attendant OBM.
+All Call, Refers to a procedure to signal flight attendants to prepare aircraft doors for departure or arrival.
+Aircraft Left, The point of reference for determining the left side of the aircraft from inside the aircraft facing forward.
+All-Nighter, A pairing consisting of only non-transoceanic duty periods that report after 1300 and release after 0300.
+Alternative Flying Program (AFP), An AFP is not a base, but rather a voluntary program which allows flight attendant participants to originate and terminate trips in the city in which they live.
+Bid period, A specified period of time for which a flight attendant bids for a schedule or participation in a program.
+Altitude, The height an aircraft flies above sea level measured in feet.
+Boarding, The process by which customers enter the aircraft (for opposite see deplaning)
+Arm/Prepare Door for Departure, The act of preparing an aircraft door for emergency operation by manually or mechanically positioning the girt bar in to the floor fittings.
+Braille Safety Information Booklet, Located on all aircraft - contains safety information printed in a Braille format.
+Available Seat Mile (ASM), One airplane seat flown one mile. An airline’s “product.”
+Briefing, A required communication between crew members. Information relevant to the safe operation of the flight, including service, is conveyed during the briefing.
+Aviation Safety Action Program (ASAP), A program for voluntary disclosure of safety related infractions.
+Bulkhead, A partition which separates cabins on the aircraft.
+AVL (Availability), Schedule code which indicates a flight attendant is on a period of availability for pay protection.
+Cabin, The section of the aircraft where customers sit.
+Cabin Jumpseat Authorization (CJA), Authorization to travel using an available non-FAA required cabin jumpseat.
+Base Transfer, Base transfers are awarded monthly based on flight attendant system seniority.
+Calendar day, A day from 0000 to 2359 in your local base time.
+Basic Economy, Delta’s value economy cabin product.
+CALL, Schedule code indicating a requirement to contact Scheduling.
+Cabin Crew, Flight attendants working a flight are referred to as the cabin crew.
+Code-Share, A U.S. Department of Transportation approvedmarketing and operating arrangement betweenDelta and partner airlines which have underlyingroute authority. Each carrier has authorizationto sell a specified number of seats on the othercarrier.
+Captain, The pilot in charge of a flight who is responsiblefor the safety of the aircraft, crew and customers.Also known as the Pilot in Command (PIC).
+Company Convenience Leave of Absence (PLOC), An unpaid 30/31 day leave of absence offered by the company on a seniority basis when an overstaffing situation exists.
+Carry-On Baggage, Any item a customer carries in the cabin.
+Company Transfer, Delta employee who transfers into another department.
+CFSM, Schedule code indicator for a flight attendant to contact his/her Field Service Manager.
+Charter Flight, When a group or individual leases an airplane for a special purpose, such as a sports team traveling to a game.
+Continuing Qualification (CQ), Ground training, review, proficiency assessment and testing required by the FAA and TSA to maintain flight attendant qualifications.
+Concourse, A concourse is a part of the terminal. This is the area where customers and crew may move from gate to gate.
+City Codes, Three-letter code which designates a specific city and may or may not be connected to a city’s airport code(s).
+Comfort+, Delta’s premium economy cabin product.
+Co-Terminal Base, Multi-airport base from which a flight attendant may bid or be assigned to fly from any airport: LAX base: LAX, SNA, ONT. FLM AFP: MIA, FLL. NYC base: JFK, LGA, EWR.
+Credit Rig, Guaranteed flight credit to adjust or provide adequate compensation for specific situations.
+Crew Members/Crew, Crew members/crew are employees who perform safety and/or service-related duties onboard an aircraft.
+Delta.com, Delta Air Lines’ web site.
+Delta Connection Carriers, Regional carriers which transport customersfrom smaller cities to and from cities served byDelta and which coordinate their flight scheduleswith Delta’s to facilitate passenger connections.Connection carriers include Endeavor,Chatauqua, Compass, ExpressJet, GoJet, ShuttleAmerica and SkyWest.
+Crew Compensation Pay, Additional pay per flight hour for any flight segment operated below staffing guidelines.
+Crew Resource Management (CRM), CRM provides the enabling behavior that flightcrews need to manage risk. CRM is an importantskill that crew members need to effectively andefficiently work together to achieve the commongoal of customer service and safety.
+Delta One, Trademark for Delta’s business class product on select international and transcontinental flights.
+Critical Phases of Flight, All ground operations involving taxi, takeoff,landing, engine start-up and shut-off and all otherflight operations conducted below 10,000 feet.
+Deplaning, The process by which customers exit the aircraft at the termination of a flight (for opposite, see boarding).
+Cruise Speed, The rate at which an aircraft flies at maximum operating efficiency for a sustained period.
+Disarm / Prepare Door for Arrival, The act of preparing an aircraft door for normaloperation by manually or mechanically removingthe girt bar from the floor fittings.
+Deadhead Flight, When a crew member does not work as a flightattendant or pilot on a trip. The crewmemberoccupies a passenger seat for transportation tocover or return from a trip.
+Ditching, Anticipated emergency landing in water.
+Diversion, Unscheduled landing at an airport other than theoriginal destination due to situations occurringenroute such as weather, maintenance, medicalemergency, need for fuel, etc.
+Decompression, The loss of cabin pressure.
+Delay Pay, Pay for flights delayed one hour or more pastscheduled departure time with NO passengerson board.
+Duty Period, The period of time from scheduled or actualreport time (whichever is later) to release inbase or on a layover for a minimum required restperiod.
+Emergency Leave of Absence (ELOA), Three consecutive days of paid leave provided toan employee who is unable to be at work due todeath in the immediate family.
+eAnnouncement Handbook (eAH), A document for flight attendants found in theSkyPro eDocs application containing publicannouncements as required by Delta Air Linesand the Federal Aviation Administration.
+Employee Involvement Group (EIG), An organization to improve the flight attendantwork environment, customer service and productquality, through two-way communication, mutualrespect and shared decision making betweenIn-Flight leadership and flight attendants.
+eDocs, An application on the SkyPro phablet whichcontains the eOBM/AH and other references/resource documents.
+Engines, Engines power the aircraft. They may be mountedon wings, the side of the tail section and the topof the tail section. Aircraft in the Delta fleet havetwo to four engines in varying locations.
+eOn-Board Manual (eOBM), A document for flight attendants found in theSkyPro phablet eDocs application containinginformation on regulations, policies, guidelinesand equipment as required by Delta Air Lines andthe Federal Aviation Administration.
+Equipment and Furnishings Manual (EFM), A cabin list used to advise the flight deckcrew and maintenance of all cabin items, bothairworthy and customer convenience, which needcorrection or repair.
+Emergency Equipment, Items (pieces of equipment) for use inemergency situations. For example, First Aid kits,fire extinguishers and flashlights are pieces ofemergency equipment.
+Failure to be Available (FTA), Infraction by an A-Day holder or a flightattendant on AVL for pay protection who failsto answer a call from Scheduling or contactScheduling within 20 minutes of being paged.Also applies to A-Day holder who fails to obtainan airport release.
+Failure to Cover (FTC), Infraction by a flight attendant who fails to report prior to departure for a scheduled assignment.
+Federal Communications Commission (FCC), The U.S. government agency which regulatesall communications facilities and companiesthroughout the U.S. Since airlines operate theirown radio and teletype, these activities fall underthe jurisdiction of the FCC and are operatedunder FCC rules. The FCC is also responsible forsetting up city and airport codes.
+Flight Deck, The forward part of the airplane containing the aircraft controls where the pilots work.
+Flight Deck Crew, Pilots working a flight are referred to as the flight deck crew.
+Ferry Flight, A non-revenue flight for the purpose ofpositioning an aircraft. All ferry flights areconsidered deadhead flights for pay purposes.
+Flight Operations, The department to which pilots are assigned.
+Flight Control, The flight dispatch positions, located within theOCC, responsible for all decisions relating tooperation of a flight.
+Field Service Manager (FSM), A flight attendants assigned manager. The FSMis the primary point of contact for information athis/her assigned base.
+Flight Leader, The flight attendant in charge of the flight. Aposition that must be filled by a leadershipqualified flight attendant. This leadership positionis referenced on the trip by the letter "A".
+First Class, Delta’s First Class product on domestic and select international routes.
+First Officer, The First Officer is the pilot who is second in command of the aircraft, also known as the co-pilot.
+Flight Pay, Pay for each credit hour, or portion thereof. Theflight pay rate is based on seniority and used tocalculate the monetary value of accumulatedflight time credit.
+Flaps, Moveable parts on the trailing edge of the wing that extend and retract during different phases of flight.
+Forward, The front portion of the aircraft or in the direction of the front of the aircraft.
+Flight Attendant Comment Tracking System (FACTS), A flight attendant computer system used for entering non safety related information about a flight.
+Fuselage, The body of an airplane to which the wings and tail section are attached.
+Galley, The kitchen area of an airplane where food andbeverages are prepared and supplies and galleyservice equipment are stowed.
+Hub and Spoke, This type of system provides a route patternwhich allows customers to board in smallervolume cities, travel to hub cities and connectto their final destinations.
+Galley Power, The electrical current which powers all galley equipment, such as coffee makers and ovens.
+Illegal, Status of a flight attendant who may not operatea flight because training qualifications are not upto date or Federal Aviation Regulation legalitiesfor rest are not met.
+Gate, An area in the airport where customers waitfor their flights to depart, as well as board anddeplane an aircraft. Also referred to as theGate House.
+iCrew, Computer application flight attendants use to receive trip information.
+Girt Bar, A metal rod or flat bar used to attach the escapedevice stowed in the slide compartment (bustle)to the aircraft floor. When the girt bar is insertedin the floor fittings, the door is armed or readyfor use in an emergency. When the girt bar is notattached to the aircraft floor, the door is disarmedor ready for use in the normal mode.
+In-Flight Service (IFS), The department to which flight attendants are assigned.
+In-Flight Service Base, A geographical area designated by the companywhere flight attendants are based. The airport(s)from which a flight attendant normally originateshis/her work hours for Delta.
+Greenwich Mean Time (GMT), The basis for Standard Time throughout the world.
+Irregular Operations (IROPS), Critical period of flight operations due to weather,mechanical or Air Traffic Control delays. Maycause a flight attendant’s scheduled pairing to bechanged.
+Gust Lock, A mechanism that maintains a hinged aircraftdoor in the open position, or locked to theaircraft fuselage to prevent the wind from movingthe door.
+Holding Pay, Pay for flights delayed at the gate for :30 minutesor more past scheduled departure time withpassengers on board.
+Jetbridge, A moveable tunnel which connects the aircraft tothe terminal or concourse. A Jetbridge is used forboarding and deplaning an aircraft.
+Jumpseat, Refers to a crewmember’s seat on an airplane.It may be located in the cabin or in the flightdeck. All jumpseats have safety restraints. Cabinjumpseats are retractable and may also bereferred to as flight attendant station.
+Load Factor, Additional flight attendant(s) that is added to apairing when a pre-determined passenger counthas been reached.
+Learning Management System (LMS), The computer-based application in which eLearning courses are completed and tracked.
+Main Cabin, Delta’s economy cabin product.
+Managed Time Out (MTO), Approved removal from a trip or a portion of atrip due to personal emergency or compelling orproblematic circumstances that occur within 24hours of scheduled report.
+Landing Gear, Consists of the main gear and the nose gear.The main gear is located under the wings andincludes wheels, brakes and struts. The nosegear is located under the nose of the aircraft andincludes struts and wheels.
+Minimum Crew, The minimum number of qualified flightattendants required by the FAA to legally operatean aircraft type.
+Language of Destination (LOD), The local language of the destination city. Flightattendants with foreign language skills are usedto staff international flights and are referred to asLOD flight attendants.
+Minimum Equipment List (MEL), A reference list found in the flight deck, for FlightControl, Pilots and Maintenance, to determinewhat is required to dispatch the aircraft when asystem or piece of equipment is inoperative.
+Lanyard, A piece of rope or cord used to hold or fasten something.
+On-the-job injury (OJI), A physical injury sustained while on duty.
+Lavatory, A compartment on the aircraft where a toilet and sink are located. Also referred to as a lav.
+Open Seating, Any seating where passengers board on a first come, first serve basis and no seat assignments are made.
+Open Time, A listing of available pairings which Trip holderflight attendants may access to pick-up, swap ordrop a trip.
+Operations and Customer Center (OCC), The OCC is staffed with decision-makers fromevery operating division of the company. Theoperation of each flight is tracked from departureto arrival.
+Purser, The lead flight attendant on a transoceanicpairing. The Purser is responsible for crewcoordination, communication among crewand between other employee groups (pilots/agents), upholding Delta’s service standards,implementing established serving proceduresand ensuring compliance with FARs and In-Flight policies for the safety and comfort of Deltacustomers.
+Origination, The departure point (city/station) where aparticular flight number begins. An originationis also a flight or group of flights, which are notpart of a published pairing or schedule. Usuallycreated due to irregular operations.
+Pushback, The time when an aircraft is released for departure and leaves the gate.
+Pairing Number, A number assigned to each rotation.
+Preflight Check, An action taken to ensure emergency equipmentis operable before an aircraft departs. Checksare required at the start of every duty period,every time a change in aircraft occurs and afteran aircraft has been left for an extended period oftime.
+Range, The maximum distance in miles an aircraft can fly before exhausting its normal fuel supply.
+Re-Route, A scheduled disruption of an original pairing due to weather, etc.
+Portal, The Delta employee web site.
+Preferential Bidding System (PBS), A computer program designed to build crewmembers schedules.
+Revenue Passenger Mile (RSM), The dollar amount generated for an occupied passenger seat for each mile flown.
+Ship Number, A number on the aircraft tail used to track and identify the individual aircraft.
+Revision, Updated information for the eOBM/AH or Flight Attendant Work Rules.
+Shuttle, The Delta Shuttle operates frequent flightsbetween New York’s LaGuardia airport andWashington DC’s National airport, Boston’sLogan airport and Chicago’s O’Hare airport. TheWest Coast Delta Shuttle offers flights betweenLos Angeles and San Francisco.
+Route System, Where an airline flies.
+Sign-In, Refers to the designated report time (up to 4hours) for crew members prior to a flight. Sign-inalso refers to the procedure and the location forreporting.
+Row of Seats, Includes seats from the window on the left sideof the plane, across the aisle, to the window onthe right side of the plane.
+SkyTeam, Other airlines that partner with Delta to providea seamless service through common policies andprocedures.
+Safety Reporting System (SRS), A flight attendant computer system used forreporting non-routine, safety related issues onboard the aircraft.
+Sky Magazine, Delta’s monthly in-flight magazine.
+Security Directive, A document issued by the TSA which containsspecific mandatory actions that air carriers andor airport entities shall implement in responseto new or increased threat to civil aviation.Corporate Security is responsible for thedistribution.
+SkyPro, A phablet whichoffers access to theeOBM/AH, customerservice tools andother applications.
+Set of Seats, Any group of connected seats not divided by an aisle.
+Slide, An “evacuation” slide provides a means of escape from the aircraft to the ground or water.
+Tail Section, Attached to the back of the fuselage andcomprised of the horizontal and verticalstabilizers. The horizontal stabilizer is the smallwing-like attachment located on each side ofthe tail section. The vertical stabilizer is the finlikeattachment located on the top of the tailsection.
+Sterile Flight Deck, Refers to the time when no unnecessaryconversation or activity can take place with/between flight deck crew members, which coulddistract any pilot from the performance of theirduties during Critical Phases of Flight (anythingbelow 10,000 feet and ground movement).Flight attendants may initiate communicationat any time concerning a safety-related matter.The captain will decide if communication shouldcontinue in the interest of safety.
+Takeoff, An ascent in an aircraft.
+Taxi, Ground movement of an aircraft.
+Technical Operations, The department to which Aircraft Mechanics andrelated personnel are assigned. Also referred toas Maintenance.
+Stubbed Flights, Occur when the inbound portion of a throughflight is delayed. For operational reasons andto maintain the integrity of the schedule, theoutbound portion of the flight is operated ontime. In this situation, there would be two flightsin the air at the same time with the same flightnumber. For FAA identification purposes, it isnecessary to assign a different flight number(a stub number) to the outbound portion.Delta Stub Flights are always a 9000 seriesnumber and are used for internal operationalpurposes only. The gate monitor will show theoriginal flight number so as not to confuse thepassengers.
+Terminal, The main area of an airport where ticketcounters, Baggage Claim and GroundTransportation are located. Terminal is also areference to the building where customers andcrew members board and deplane an aircraft.
+Terminating Flight, The arrival point (city/station) where a particular flight number ends.
+Threat and Error Management (TEM), This means thinking about a potential threat thatmay cause you to commit an error. Identify thosethreats and take steps to reduce or eliminatethem.
+Through-Flight Intermediate Stop, A scheduled stop in a city/station between theoriginating and terminating points of a particularflight number.
+Time Zones, Local time that extends from the North Pole to South Pole.
+Transportation Security Administration (TSA), Transportation Security Administration oversees and promotes security procedures for all airlines.
+Turnaround, A trip consisting of one duty period.
+Twenty-Four (24)-Hour Clock, Used to precisely represent the time of daywithout A.M./P.M. designators, so midnight (thebeginning of a new day) starts at 0000 and theday ends at 2359.
+Variable Staffer/K-Line, A single flight attendant position that is primarilyused to bring staffing to FAA minimum levels.Certain transoceanic load factors designated withthe letter "K", are also considered Variable Stafferpairings.
+Wing Span, The distance from the tip of one wing to the tip of the opposite wing.
+Wings, Attached to the fuselage. The front of the wing isreferred to as the Leading Edge. The back of thewing is referred to as the Trailing Edge. The wingsalso contain the aircraft’s fuel supply.
