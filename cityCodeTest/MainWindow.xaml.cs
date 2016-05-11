@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -46,13 +47,21 @@ namespace cityCodeTest
 
         private void main()
         {
-            if(File.Exists("cc.txt") == false)
+            OpenFileDialog openFile = new OpenFileDialog();
+            openFile.Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*";
+
+            while(openFile.ShowDialog().Value == false)
+            {
+                openFile.ShowDialog();
+            }
+
+            if (File.Exists(openFile.FileName) == false)
             {
                 MessageBox.Show("Missing the cc text file that contains all the letter codes and cities. Please put the file in the same folder as this application.");
                 Application.Current.Shutdown();
             }
 
-            System.IO.StreamReader file = new System.IO.StreamReader("cc.txt");
+            System.IO.StreamReader file = new System.IO.StreamReader(openFile.FileName);
             string line;
             while ((line = file.ReadLine()) != null)
             {
