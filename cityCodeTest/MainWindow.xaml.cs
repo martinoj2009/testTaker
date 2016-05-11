@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -33,6 +34,8 @@ namespace cityCodeTest
         {
             InitializeComponent();
 
+            text_Question.IsReadOnly = true;
+
             buttons[0] = Answer1;
             buttons[1] = Answer2;
             buttons[2] = Answer3;
@@ -43,6 +46,12 @@ namespace cityCodeTest
 
         private void main()
         {
+            if(File.Exists("cc.txt") == false)
+            {
+                MessageBox.Show("Missing the cc text file that contains all the letter codes and cities. Please put the file in the same folder as this application.");
+                Application.Current.Shutdown();
+            }
+
             System.IO.StreamReader file = new System.IO.StreamReader("cc.txt");
             string line;
             while ((line = file.ReadLine()) != null)
@@ -56,6 +65,7 @@ namespace cityCodeTest
                 }
             }
 
+            Questions = ShuffleList(Questions);
             setQuestion();
 
 
@@ -73,7 +83,7 @@ namespace cityCodeTest
 
             if (questionNumber >= Questions.Count)
             {
-                MessageBox.Show("All Done! You got: " + (double)correctAnswers/(double)Questions.Count + "%");
+                MessageBox.Show("All Done! You got: " + (float)correctAnswers/(float)Questions.Count + "%");
                 return;
             }
 
@@ -84,7 +94,7 @@ namespace cityCodeTest
         {
             label_QuestionNumber.Content = "Question Number: " + (questionNumber+1);
             label_Total.Content = "Total: " + Questions.Count;
-            label_city.Content = Questions[questionNumber].QuestionText;
+            text_Question.Text = Questions[questionNumber].QuestionText;
             label_Correct.Text = "Correct: " + correctAnswers;
 
 
@@ -135,7 +145,7 @@ namespace cityCodeTest
                     }
                     else
                     {
-                        MessageBox.Show("Wrong!");
+                        MessageBox.Show("Wrong! The correct answer is: " + Questions[questionNumber].CorrectAnswer);
                         button_Next_Click(null, null);
                         return;
                     }
@@ -145,5 +155,22 @@ namespace cityCodeTest
             MessageBox.Show("Nothing is selected!");
 
         }
+
+        private List<E> ShuffleList<E>(List<E> inputList)
+        {
+            List<E> randomList = new List<E>();
+
+            Random r = new Random();
+            int randomIndex = 0;
+            while (inputList.Count > 0)
+            {
+                randomIndex = r.Next(0, inputList.Count); //Choose a random object in the list
+                randomList.Add(inputList[randomIndex]); //add it to the new, random list
+                inputList.RemoveAt(randomIndex); //remove to avoid duplicates
+            }
+
+            return randomList; //return the new random list
+        }
+
     }
 }
