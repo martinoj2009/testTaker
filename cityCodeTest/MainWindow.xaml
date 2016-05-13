@@ -5,29 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:cityCodeTest"
         mc:Ignorable="d"
-        Title="Test" Height="392.869" Width="456.392" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+        Title="Test" Height="407.017" Width="456.392" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <RadioButton x:Name="Answer1" Content="Answer1" HorizontalAlignment="Left" Margin="10,181,0,0" VerticalAlignment="Top" GroupName="an" Width="430"/>
-        <Button x:Name="button_Next" Content="Skip" HorizontalAlignment="Left" Margin="10,294,0,10" Width="112" Click="button_Next_Click"/>
+        <Button x:Name="button_Next" Content="Skip" HorizontalAlignment="Left" Margin="10,308,0,10" Width="112" Click="button_Next_Click"/>
         <RadioButton x:Name="Answer2" Content="Answer2" HorizontalAlignment="Left" Margin="10,201,0,0" VerticalAlignment="Top" GroupName="an" Width="430"/>
         <RadioButton x:Name="Answer3" Content="Answer3" HorizontalAlignment="Left" Margin="10,221,0,0" VerticalAlignment="Top" GroupName="an" Width="430"/>
         <RadioButton x:Name="Answer4" Content="Answer4" HorizontalAlignment="Left" Margin="10,236,0,0" VerticalAlignment="Top" GroupName="an" Width="430"/>
-        <Button x:Name="button_CheckAnswer" Content="Check" Margin="326,294,10,10" IsDefault="True" Click="button_CheckAnswer_Click"/>
+        <Button x:Name="button_CheckAnswer" Content="Check" Margin="326,308,10,10" IsDefault="True" Click="button_CheckAnswer_Click"/>
         <Label x:Name="label_Total" Content="Total: " Margin="356,41,10,0" VerticalAlignment="Top"/>
         <Label x:Name="label_QuestionNumber" Content="Question Number: " HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
         <TextBlock x:Name="label_Correct" HorizontalAlignment="Left" Margin="184,46,0,0" TextWrapping="Wrap" Text="Correct: " VerticalAlignment="Top"/>
         <TextBox x:Name="text_Question" Height="104" Margin="0,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
 
 
-        <DockPanel>
-            <Menu DockPanel.Dock="Top">
+        <DockPanel Margin="0,0,0,328">
+            <Menu DockPanel.Dock="Top" Height="33">
                 <MenuItem Header="_File">
                     <MenuItem Header="About" Click="MenuItem_Click_1"/>
                     <MenuItem Header="Source Code" Click="MenuItem_Click"/>
                 </MenuItem>
             </Menu>
-            <StackPanel></StackPanel>
+
         </DockPanel>
+        <CheckBox x:Name="check_Study" Content="Study Mode" HorizontalAlignment="Left" Margin="138,317,0,0" VerticalAlignment="Top" Click="check_Study_Click"/>
+        <TextBlock x:Name="label_StudyAnswer" HorizontalAlignment="Left" Margin="10,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="430" Height="47"/>
+        <CheckBox x:Name="check_Audio" Content="Audio" HorizontalAlignment="Left" Margin="138,337,0,0" VerticalAlignment="Top" Click="check_Audio_Click"/>
     </Grid>
-    
+
 </Window>

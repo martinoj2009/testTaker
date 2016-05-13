@@ -1,20 +1,14 @@
 ﻿using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO;
-using System.Linq;
-using System.Text;
+using System.Speech.Synthesis;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+using System.Threading;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace cityCodeTest
 {
@@ -29,12 +23,15 @@ namespace cityCodeTest
         private RadioButton[] buttons = new RadioButton[4];
         private int correctAnswers = 0;
         private string currentDir = AppDomain.CurrentDomain.BaseDirectory;
+        private SpeechSynthesizer synthesizer = new SpeechSynthesizer();
 
 
 
         public MainWindow()
         {
             InitializeComponent();
+
+            synthesizer.Volume = 100;
 
             text_Question.IsReadOnly = true;
 
@@ -85,6 +82,7 @@ namespace cityCodeTest
 
         private void button_Next_Click(object sender, RoutedEventArgs e)
         {
+
             //Reset the buttons
             for (int i = 0; i < buttons.Length; i++)
             {
@@ -99,11 +97,17 @@ namespace cityCodeTest
                 return;
             }
 
+            if(check_Study.IsChecked == true)
+            {
+                check_Study_Click(null, null);
+            }
+            
             setQuestion();
         }
 
         private void setQuestion()
         {
+            synthesizer.SpeakAsyncCancelAll();
             label_QuestionNumber.Content = "Question Number: " + (questionNumber+1);
             label_Total.Content = "Total: " + Questions.Count;
             text_Question.Text = Questions[questionNumber].QuestionText;
@@ -115,14 +119,24 @@ namespace cityCodeTest
             int num = rand.Next(0, 4);
             buttons[num].Content = Questions[questionNumber].CorrectAnswer;
 
-            //Set the rest of the answers
-            for(int i = 0; i < buttons.Length; i++)
+            if(check_Study.IsChecked == false)
             {
-                if(i != num)
+                //Set the rest of the answers
+                for (int i = 0; i < buttons.Length; i++)
                 {
-                    buttons[i].Content = fakeAnswer(Questions[questionNumber].CorrectAnswer);
+                    if (i != num)
+                    {
+                        buttons[i].Content = fakeAnswer(Questions[questionNumber].CorrectAnswer);
+                    }
                 }
             }
+
+            if(check_Audio.IsChecked == true)
+            {
+                speech();
+            }
+            
+
         }
 
 
@@ -195,6 +209,105 @@ namespace cityCodeTest
             aboutBox about = new aboutBox();
             about.ShowDialog();
             about.Dispose();
+        }
+
+        private void check_Study_Click(object sender, RoutedEventArgs e)
+        {
+            if(check_Study.IsChecked == true)
+            {
+                label_StudyAnswer.Visibility = Visibility.Visible;
+                label_StudyAnswer.Text = Questions[questionNumber].CorrectAnswer;
+                label_StudyAnswer.FontSize = 17;
+                button_CheckAnswer.IsEnabled = false;
+                button_Next.Content = "Next";
+                buttons[0].Visibility = Visibility.Hidden;
+                buttons[1].Visibility = Visibility.Hidden;
+                buttons[2].Visibility = Visibility.Hidden;
+                buttons[3].Visibility = Visibility.Hidden;
+                setQuestion();
+            }
+            else
+            {
+                label_StudyAnswer.Visibility = Visibility.Hidden;
+                label_StudyAnswer.FontSize = 12;
+                button_CheckAnswer.IsEnabled = true;
+                button_Next.Content = "Skip";
+                buttons[0].Visibility = Visibility.Visible;
+                buttons[1].Visibility = Visibility.Visible;
+                buttons[2].Visibility = Visibility.Visible;
+                buttons[3].Visibility = Visibility.Visible;
+                setQuestion();
+            }
+        }
+
+        private void speech()
+        {
+            if(check_Study.IsChecked == false)
+            {
+                if (synthesizer.State == SynthesizerState.Speaking)
+                {
+                    System.Threading.Thread.Sleep(50);
+                }
+
+                synthesizer.SpeakAsync(text_Question.Text);
+
+                while (synthesizer.State == SynthesizerState.Speaking)
+                {
+                    System.Threading.Thread.Sleep(50);
+                }
+
+                synthesizer.SpeakAsync("Is. A");
+
+                while (synthesizer.State == SynthesizerState.Speaking)
+                {
+                    System.Threading.Thread.Sleep(50);
+                }
+
+                synthesizer.SpeakAsync(buttons[0].Content.ToString());
+
+                while (synthesizer.State == SynthesizerState.Speaking)
+                {
+                    System.Threading.Thread.Sleep(50);
+                }
+
+                synthesizer.SpeakAsync("B." + buttons[1].Content.ToString());
+
+                while (synthesizer.State == SynthesizerState.Speaking)
+                {
+                    System.Threading.Thread.Sleep(50);
+                }
+
+                synthesizer.SpeakAsync("C." + buttons[2].Content.ToString());
+
+                while (synthesizer.State == SynthesizerState.Speaking)
+                {
+                    System.Threading.Thread.Sleep(50);
+                }
+
+                synthesizer.SpeakAsync("D." + buttons[3].Content.ToString());
+            }
+            else
+            {
+                if (synthesizer.State == SynthesizerState.Speaking)
+                {
+                    System.Threading.Thread.Sleep(50);
+                }
+
+                synthesizer.SpeakAsync(text_Question.Text);
+
+                while (synthesizer.State == SynthesizerState.Speaking)
+                {
+                    System.Threading.Thread.Sleep(50);
+                }
+
+                synthesizer.SpeakAsync("The answer is. " + Questions[questionNumber].CorrectAnswer);
+            }
+            
+        }
+
+        private void check_Audio_Click(object sender, RoutedEventArgs e)
+        {
+            setQuestion();
         }
     }
 }
