@@ -30,7 +30,7 @@
     <ProductName>City Code Test</ProductName>
     <PublisherName>Martino Jones</PublisherName>
     <SuiteName>City Code Test</SuiteName>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>1.1.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
